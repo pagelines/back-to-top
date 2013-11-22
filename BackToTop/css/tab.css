@@ -1,0 +1,18 @@
+/* Tab style */
+#button-back-to-top {
+    bottom: 0px !important;           
+    margin-bottom: -10px;
+    padding: 10px 5px;
+    font-family: sans-serif;        
+    text-align: center;
+    text-decoration: none;        
+    -webkit-transition: margin-bottom 150ms linear;
+    -moz-transition: margin-bottom 150ms linear;
+    transition: margin-bottom 150ms linear;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+#button-back-to-top:hover {
+    margin-bottom: 0px;
+}
