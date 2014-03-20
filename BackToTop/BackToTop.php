@@ -6,7 +6,7 @@
   Plugin Name: Back To Top
   Plugin URI: http://pagelines.kyle-irving.co.uk/back-to-top/
   Version: 1.0.1
-  Description: Allows users to get back to the top of your web page effortlessly. Adds a new panel to DMS Settings "Back to top Button".
+  Description: Allows users to get back to the top of your web page effortlessly. Adds a new options panel to DMS Settings for Back to top settings.
   Class Name: Back_To_Top
   PageLines: true
   Section: false
@@ -98,6 +98,7 @@ class Back_To_Top {
         $settings = array(
             array(
                 'type' => 'multi',
+                'col'	=> 1,
                 'title' => __('Styling', 'back-to-top'),
                 'help' => '',
                 'opts' => array(
@@ -121,6 +122,7 @@ class Back_To_Top {
                     ),
                     array(
                         'key' => 'back-to-top-zindex',
+                        'help' => 'Only use zindex if required, i.e your Back To Top link is behind another object.',
                         'type' => 'text',
                         'default' => 50,
                         'label' => __('Button z-index', 'back-to-top'),
@@ -147,6 +149,7 @@ class Back_To_Top {
             ),
             array(
                 'type' => 'multi',
+                'col'	=> 2,
                 'title' => __('Position', 'back-to-top'),
                 'help' => '',
                 'opts' => array(
@@ -168,6 +171,7 @@ class Back_To_Top {
             ),
             array(
                 'type' => 'multi',
+                'col'	=> 2,
                 'title' => __('Padding', 'back-to-top'),
                 'help' => '',
                 'opts' => array(
