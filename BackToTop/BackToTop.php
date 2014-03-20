@@ -4,7 +4,7 @@
   Author: Kyle & Irving
   Author URI: http://kyle-irving.co.uk/
   Plugin Name: Back To Top
-  Plugin URI: http://kyle-irving.co.uk/
+  Plugin URI: http://pagelines.kyle-irving.co.uk/back-to-top/
   Version: 1.0.1
   Description: Allows users to get back to the top of your web page effortlessly. Adds a new panel to DMS Settings "Back to top Button".
   Class Name: Back_To_Top
@@ -84,7 +84,7 @@ class Back_To_Top {
     function add_settings($settings) {
 
         $settings['back-to-top'] = array(
-            'name' => 'Button Scroll Up',
+            'name' => 'Back To Top',
             'icon' => 'icon-circle-arrow-up',
             'pos' => 3,
             'opts' => $this->options()
